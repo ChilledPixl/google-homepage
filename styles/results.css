@@ -79,3 +79,19 @@ hr {
     font-size: 0.8em;
     margin-left: 160px;
 }
+
+h3 {
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin-left: 160px;
+    color: rgb(30, 30, 216);   
+    margin: 0px 0px 10px 160px;  
+
+}
+
+.paragraphs {
+    margin-left: 160px;
+    font-size: 0.9em;
+    line-height: 20px;
+    margin: 0px 0px 10px 160px;
+}
