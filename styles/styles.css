@@ -61,7 +61,7 @@ li a{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 5px;
-    margin-left: ;
+    text-decoration: none;
 }
 
 .header a:hover, .footer a:hover {
@@ -100,16 +100,16 @@ input[type=text] {
     padding-bottom: 12px;
     padding-left: 10px;
     padding-right: 10px;
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
     border-width: 1px;
-    border-color: black;
     display: inline-block;
+    background-color: white;
 }
 
 input[type=text]:hover {
-    box-shadow: 2px 3px 4px;
-    color: 
-    opacity: 10%;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 input[type=submit] {
@@ -122,13 +122,11 @@ input[type=submit] {
     border: none;
     outline: none;
     border-radius: 5px;
+    margin: 0 10px 0 10px
 }
 
 input[type=submit]:hover {
-    box-shadow: 1px;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: rgba(199, 199, 199, 0.801);
-    border-radius: 5px;
+    color: black;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }

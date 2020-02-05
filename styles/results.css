@@ -17,16 +17,16 @@ input[type=text] {
     padding-right: 10px;
     border-radius: 25px;
     border-width: 1px;
-    border-color: black;
+    background-color: white;
+    border: 1px solid #dfe1e5;
     margin-top: 12px;
     margin-left: 5px;
     float: left;
 }
 
 input[type=text]:hover {
-    box-shadow: 2px 3px 4px;
-    color: 
-    opacity: 10%;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 .signin {
@@ -73,11 +73,20 @@ li {
 
 hr {
     border-color: rgba(236, 236, 236, 0.801);
+    margin: 0px 0px 0px 0px;
+}
+
+.website {
+    margin-left: 160px;
+    font-size: 0.9em;
+    line-height: 20px;
+    margin: 0px 0px 2px 160px;
 }
 
 .seconds {
     font-size: 0.8em;
     margin-left: 160px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -93,5 +102,50 @@ h3 {
     margin-left: 160px;
     font-size: 0.9em;
     line-height: 20px;
-    margin: 0px 0px 10px 160px;
+    margin: 0px 0px 30px 160px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.collapsible {
+    background-color:white;
+    cursor: pointer;
+    height: 50px;
+    padding: 0 0 0 20px;
+    width: 40%;
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    margin: 0 0 0 140px;
+    border-width: 1px 1px 0 1px;
+}
+
+.collapsiblebottom {
+    background-color:white;
+    cursor: pointer;
+    height: 50px;
+    padding: 0 0 0 20px;
+    width: 40%;
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    margin: 0 0 0 140px;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0 0 10px 10px
+}
+
+.collapsibletop {
+    font-size: 1.1em;
+    background-color:white;
+    height: 50px;
+    padding: 0 0 0 20px;
+    width: 40%;
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    margin: 0 0 0 140px;
+    border-width: 1px 1px 0 1px;
+    border-radius: 10px 10px 0 0
 }
