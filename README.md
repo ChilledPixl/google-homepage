@@ -14,4 +14,5 @@ This assignment is a task to reproduce Google's homepage.
 For reference, the following two links are what I was using to recreate my own pages:
 
 Easy Google homepage: www.google.com
+
 Harder Google results page: https://www.google.com/search?q=build+this+webpage
